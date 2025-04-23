@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B66696022DA6A5230086E773 /* ollama-manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ollama-manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B66696102DA6A5240086E773 /* ollama-managerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ollama-managerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B666961A2DA6A5240086E773 /* ollama-managerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ollama-managerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66696022DA6A5230086E773 /* local-llmanager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "local-llmanager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66696102DA6A5240086E773 /* local-llmanagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "local-llmanagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B666961A2DA6A5240086E773 /* local-llmanagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "local-llmanagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B66696042DA6A5230086E773 /* ollama-manager */ = {
+		B66696042DA6A5230086E773 /* local-llmanager */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ollama-manager";
+			path = "local-llmanager";
 			sourceTree = "<group>";
 		};
-		B66696132DA6A5240086E773 /* ollama-managerTests */ = {
+		B66696132DA6A5240086E773 /* local-llmanagerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ollama-managerTests";
+			path = "local-llmanagerTests";
 			sourceTree = "<group>";
 		};
-		B666961D2DA6A5240086E773 /* ollama-managerUITests */ = {
+		B666961D2DA6A5240086E773 /* local-llmanagerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ollama-managerUITests";
+			path = "local-llmanagerUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		B66695F92DA6A5230086E773 = {
 			isa = PBXGroup;
 			children = (
-				B66696042DA6A5230086E773 /* ollama-manager */,
-				B66696132DA6A5240086E773 /* ollama-managerTests */,
-				B666961D2DA6A5240086E773 /* ollama-managerUITests */,
+				B66696042DA6A5230086E773 /* local-llmanager */,
+				B66696132DA6A5240086E773 /* local-llmanagerTests */,
+				B666961D2DA6A5240086E773 /* local-llmanagerUITests */,
 				B66696032DA6A5230086E773 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		B66696032DA6A5230086E773 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B66696022DA6A5230086E773 /* ollama-manager.app */,
-				B66696102DA6A5240086E773 /* ollama-managerTests.xctest */,
-				B666961A2DA6A5240086E773 /* ollama-managerUITests.xctest */,
+				B66696022DA6A5230086E773 /* local-llmanager.app */,
+				B66696102DA6A5240086E773 /* local-llmanagerTests.xctest */,
+				B666961A2DA6A5240086E773 /* local-llmanagerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B66696012DA6A5230086E773 /* ollama-manager */ = {
+		B66696012DA6A5230086E773 /* local-llmanager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B66696242DA6A5240086E773 /* Build configuration list for PBXNativeTarget "ollama-manager" */;
+			buildConfigurationList = B66696242DA6A5240086E773 /* Build configuration list for PBXNativeTarget "local-llmanager" */;
 			buildPhases = (
 				B66695FE2DA6A5230086E773 /* Sources */,
 				B66695FF2DA6A5230086E773 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B66696042DA6A5230086E773 /* ollama-manager */,
+				B66696042DA6A5230086E773 /* local-llmanager */,
 			);
-			name = "ollama-manager";
+			name = "local-llmanager";
 			packageProductDependencies = (
 			);
 			productName = "ollama-manager";
-			productReference = B66696022DA6A5230086E773 /* ollama-manager.app */;
+			productReference = B66696022DA6A5230086E773 /* local-llmanager.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B666960F2DA6A5240086E773 /* ollama-managerTests */ = {
+		B666960F2DA6A5240086E773 /* local-llmanagerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B66696272DA6A5240086E773 /* Build configuration list for PBXNativeTarget "ollama-managerTests" */;
+			buildConfigurationList = B66696272DA6A5240086E773 /* Build configuration list for PBXNativeTarget "local-llmanagerTests" */;
 			buildPhases = (
 				B666960C2DA6A5240086E773 /* Sources */,
 				B666960D2DA6A5240086E773 /* Frameworks */,
@@ -131,18 +131,18 @@
 				B66696122DA6A5240086E773 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				B66696132DA6A5240086E773 /* ollama-managerTests */,
+				B66696132DA6A5240086E773 /* local-llmanagerTests */,
 			);
-			name = "ollama-managerTests";
+			name = "local-llmanagerTests";
 			packageProductDependencies = (
 			);
 			productName = "ollama-managerTests";
-			productReference = B66696102DA6A5240086E773 /* ollama-managerTests.xctest */;
+			productReference = B66696102DA6A5240086E773 /* local-llmanagerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B66696192DA6A5240086E773 /* ollama-managerUITests */ = {
+		B66696192DA6A5240086E773 /* local-llmanagerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B666962A2DA6A5240086E773 /* Build configuration list for PBXNativeTarget "ollama-managerUITests" */;
+			buildConfigurationList = B666962A2DA6A5240086E773 /* Build configuration list for PBXNativeTarget "local-llmanagerUITests" */;
 			buildPhases = (
 				B66696162DA6A5240086E773 /* Sources */,
 				B66696172DA6A5240086E773 /* Frameworks */,
@@ -154,13 +154,13 @@
 				B666961C2DA6A5240086E773 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				B666961D2DA6A5240086E773 /* ollama-managerUITests */,
+				B666961D2DA6A5240086E773 /* local-llmanagerUITests */,
 			);
-			name = "ollama-managerUITests";
+			name = "local-llmanagerUITests";
 			packageProductDependencies = (
 			);
 			productName = "ollama-managerUITests";
-			productReference = B666961A2DA6A5240086E773 /* ollama-managerUITests.xctest */;
+			productReference = B666961A2DA6A5240086E773 /* local-llmanagerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B66695FD2DA6A5230086E773 /* Build configuration list for PBXProject "ollama-manager" */;
+			buildConfigurationList = B66695FD2DA6A5230086E773 /* Build configuration list for PBXProject "local-llmanager" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B66696012DA6A5230086E773 /* ollama-manager */,
-				B666960F2DA6A5240086E773 /* ollama-managerTests */,
-				B66696192DA6A5240086E773 /* ollama-managerUITests */,
+				B66696012DA6A5230086E773 /* local-llmanager */,
+				B666960F2DA6A5240086E773 /* local-llmanagerTests */,
+				B66696192DA6A5240086E773 /* local-llmanagerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		B66696122DA6A5240086E773 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B66696012DA6A5230086E773 /* ollama-manager */;
+			target = B66696012DA6A5230086E773 /* local-llmanager */;
 			targetProxy = B66696112DA6A5240086E773 /* PBXContainerItemProxy */;
 		};
 		B666961C2DA6A5240086E773 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B66696012DA6A5230086E773 /* ollama-manager */;
+			target = B66696012DA6A5230086E773 /* local-llmanager */;
 			targetProxy = B666961B2DA6A5240086E773 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -392,7 +392,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "ollama-manager/ollama_manager.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "local-llmanager/local-llmanager.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -404,7 +404,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "cool.confirmed.ollama-manager";
+				PRODUCT_BUNDLE_IDENTIFIER = "cool.confirmed.local-llmanager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -417,7 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "ollama-manager/ollama_manager.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "local-llmanager/local-llmanager.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -429,7 +429,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "cool.confirmed.ollama-manager";
+				PRODUCT_BUNDLE_IDENTIFIER = "cool.confirmed.local-llmanager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -450,7 +450,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ollama-manager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ollama-manager";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/local-llmanager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/local-llmanager";
 			};
 			name = Debug;
 		};
@@ -467,7 +467,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ollama-manager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ollama-manager";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/local-llmanager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/local-llmanager";
 			};
 			name = Release;
 		};
@@ -504,7 +504,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B66695FD2DA6A5230086E773 /* Build configuration list for PBXProject "ollama-manager" */ = {
+		B66695FD2DA6A5230086E773 /* Build configuration list for PBXProject "local-llmanager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B66696222DA6A5240086E773 /* Debug */,
@@ -513,7 +513,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B66696242DA6A5240086E773 /* Build configuration list for PBXNativeTarget "ollama-manager" */ = {
+		B66696242DA6A5240086E773 /* Build configuration list for PBXNativeTarget "local-llmanager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B66696252DA6A5240086E773 /* Debug */,
@@ -522,7 +522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B66696272DA6A5240086E773 /* Build configuration list for PBXNativeTarget "ollama-managerTests" */ = {
+		B66696272DA6A5240086E773 /* Build configuration list for PBXNativeTarget "local-llmanagerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B66696282DA6A5240086E773 /* Debug */,
@@ -531,7 +531,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B666962A2DA6A5240086E773 /* Build configuration list for PBXNativeTarget "ollama-managerUITests" */ = {
+		B666962A2DA6A5240086E773 /* Build configuration list for PBXNativeTarget "local-llmanagerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B666962B2DA6A5240086E773 /* Debug */,
