@@ -6,12 +6,13 @@
 ---
 
 <div align="center">
-   <img src="preview/screenshots/app_preview_dark.png" width="100%">
+   <img src="preview/screenshots/app_preview_dark.png" width="80%">
 </div>
 
 # Overview
 
-Local LLManager is a native macOS GUI for [Ollama](https://ollama.com/), built entirely in Swift and SwiftUI. The app provides a streamlined, user-friendly interface for interacting with the Ollama service — no Terminal commands necessary (outside of setup).
+Local LLManager is a macOS GUI for [Ollama](https://ollama.com/), written in Swift and SwiftUI. It provides a neat, user-friendly interface for interacting with the Ollama service — no Terminal commands necessary (outside of setup).  
+I mostly wrote this because I would start Ollama and forget about it in the CLI and thought it would be an engaging way to learn Swift.
 
 > [!NOTE]  
 > This is my first Swift project — it's mostly a demo at this point!
